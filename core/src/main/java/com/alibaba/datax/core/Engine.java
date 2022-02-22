@@ -199,6 +199,8 @@ public class Engine {
     }
 
     public static void main(String[] args) throws Exception {
+//        System.setProperty("datax.home", "E:\\after_workspace\\GitHub_workspace\\datax-build\\target");  //datax编译后的目录
+//        String[] datxArgs = {"-job", "E:\\after_workspace\\GitHub_workspace\\datax\\core\\src\\main\\job\\job.json", "-mode", "standalone", "-jobid", "-1"};  //自己的json文件路径
         int exitCode = 0;
         try {
             Engine.entry(args);

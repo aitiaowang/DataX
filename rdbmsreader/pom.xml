@@ -46,6 +46,14 @@
             <systemPath>${basedir}/src/main/libs/edb-jdbc16.jar</systemPath>
         </dependency>
 
+        <dependency>
+            <groupId>com.sap.cloud.db.jdbc</groupId>
+            <artifactId>bgdbc</artifactId>
+            <version>2.9.12</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/libs/ngdbc-2.9.12.jar</systemPath>
+        </dependency>
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
