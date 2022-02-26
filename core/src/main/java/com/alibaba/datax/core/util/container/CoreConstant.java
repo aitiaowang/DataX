@@ -83,12 +83,19 @@ public class CoreConstant {
 
     public static final String DATAX_JOB_SETTING_KEYVERSION = "job.setting.keyVersion";
 
+    /**
+     * 支持用户对速度的自定义控制，channel的值可以控制同步时的并发数，byte的值可以控制同步时的速度
+     */
 	public static final String DATAX_JOB_SETTING_SPEED_BYTE = "job.setting.speed.byte";
 
     public static final String DATAX_JOB_SETTING_SPEED_RECORD = "job.setting.speed.record";
 
 	public static final String DATAX_JOB_SETTING_SPEED_CHANNEL = "job.setting.speed.channel";
 
+    /**
+     * Job支持用户对于脏数据的自定义监控和告警，包括对脏数据最大记录数阈值（record值）或者脏数据占比阈值（percentage值），
+     * 当Job传输过程出现的脏数据大于用户指定的数量/百分比，DataX Job报错退出
+     */
 	public static final String DATAX_JOB_SETTING_ERRORLIMIT = "job.setting.errorLimit";
 
     public static final String DATAX_JOB_SETTING_ERRORLIMIT_RECORD = "job.setting.errorLimit.record";
